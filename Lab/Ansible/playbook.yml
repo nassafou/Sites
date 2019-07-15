@@ -1,0 +1,13 @@
+---
+- name: Installation des serveurs web
+  hosts: web
+  remote_user: bob
+  vars: 
+    user: volibear
+
+  roles:
+    - utils
+    - user
+
+
+...
