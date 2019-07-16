@@ -5,8 +5,8 @@
   vars: 
     user: volibear
     domains:
-       -  netdeb.local
-       -  demo.fr
+       - netdeb.local
+       - demo.fr
 
   roles:
     - utils
