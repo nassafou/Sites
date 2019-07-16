@@ -4,7 +4,9 @@
   remote_user: bob
   vars: 
     user: volibear
-    domain: netdeb.local
+    domains:
+       -  netdeb.local
+       -  demo.fr
 
   roles:
     - utils
